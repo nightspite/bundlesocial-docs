@@ -107,11 +107,7 @@
             "multipart/form-data": {
               "schema": {
                 "type": "object",
-                "properties": {
-                  "teamId": { "type": "string" },
-                  "file": { "nullable": true }
-                },
-                "required": ["teamId"]
+                "properties": { "file": { "nullable": true } }
               }
             }
           }
