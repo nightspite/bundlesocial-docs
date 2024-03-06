@@ -1,5 +1,6 @@
 {
-  "$schema": "https://api.bundle.social/swagger-json",
+  "$schema": "https://mintlify.com/schema.json",
+  "openapi": ["/api-reference/openapi.json"],
   "name": "bundle.social",
   "logo": {
     "dark": "/logo/wordmark.svg",
@@ -62,6 +63,21 @@
       "name": "Github",
       "icon": "github",
       "url": "https://github.com/bundlesocial"
+    },
+    {
+      "name": "Status",
+      "icon": "wave-pulse",
+      "url": "https://bundlesocial.betteruptime.com"
+    },
+    {
+      "name": "Feedback",
+      "icon": "messages",
+      "url": "https://bundle.social/dashboard/feedback"
+    },
+    {
+      "name": "Help",
+      "icon": "life-ring",
+      "url": "https://bundle.social/dashboard/help"
     }
   ],
   "navigation": [
@@ -85,12 +101,12 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "App",
+      "pages": ["api-reference/app/get-health"]
+    },
+    {
+      "group": "Upload",
+      "pages": ["api-reference/upload/post-upload"]
     }
   ],
   "footerSocials": {
