@@ -113,5 +113,13 @@
     "twitter": "https://twitter.com/bundle_social",
     "github": "https://www.github.com/bundlesocial",
     "linkedin": "https://www.linkedin.com/company/bundlesocial"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "seo": {
+    "indexHiddenPages": true
   }
 }
