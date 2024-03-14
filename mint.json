@@ -96,6 +96,10 @@
     {
       "group": "Upload",
       "pages": ["api-reference/upload/post-upload"]
+    },
+    {
+      "group": "Post",
+      "pages": ["api-reference/post/post-post"]
     }
   ],
   "footerSocials": {
