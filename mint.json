@@ -91,15 +91,15 @@
     },
     {
       "group": "App",
-      "pages": ["api-reference/app/get-health"]
+      "pages": ["api-reference/client/app/get-health"]
     },
     {
       "group": "Upload",
-      "pages": ["api-reference/upload/post-upload"]
+      "pages": ["api-reference/client/upload/create-upload"]
     },
     {
       "group": "Post",
-      "pages": ["api-reference/post/post-post"]
+      "pages": ["api-reference/client/post/create-post"]
     }
   ],
   "footerSocials": {
