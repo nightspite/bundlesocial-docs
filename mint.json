@@ -100,6 +100,41 @@
     {
       "group": "Post",
       "pages": ["api-reference/client/post/create-post"]
+    },
+    {
+      "group": "Blog",
+      "pages": [
+        "blog/posts",
+        "blog/posts/quick-guide-on-when-to-post",
+        "blog/posts/why-solanda-is-next-big-thing",
+        "blog/posts/ai-interview-are-here",
+        "blog/posts/dopamine-detox",
+        "blog/posts/ai-regulations",
+        "blog/posts/all-my-homies-hate-blizzard",
+        "blog/posts/books-can-change-you",
+        "blog/posts/cloud-seeding-is-funny",
+        "blog/posts/get-money-from-instagram",
+        "blog/posts/get-your-money-from-twitter",
+        "blog/posts/google-borrowed-chatgpt-data",
+        "blog/posts/grow-your-tiktok-audience",
+        "blog/posts/how-to-get-customer-insights",
+        "blog/posts/how-to-get-more-facebook-followers",
+        "blog/posts/is-data-science-dead",
+        "blog/posts/linkedin-is-cringe",
+        "blog/posts/marketing-in-the-future",
+        "blog/posts/mental-health-and-social-media",
+        "blog/posts/product-design-by-zalando",
+        "blog/posts/why-we-think-in-the-shower",
+        "blog/posts/real-cost-of-cloud",
+        "blog/posts/seo-and-ads-managment",
+        "blog/posts/social-media-trends-2024",
+        "blog/posts/stop-using-loops-now",
+        "blog/posts/you-are-an-addict",
+        "blog/posts/tiktok-banned",
+        "blog/posts/what-is-mojo",
+        "blog/posts/what-is-quantum-computing",
+        "blog/posts/working-burnout"
+      ]
     }
   ],
   "footerSocials": {
