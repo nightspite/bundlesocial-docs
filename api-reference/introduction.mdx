@@ -1,23 +1,30 @@
 ---
 title: Introduction
-description: Welcome to the API reference documentation for the bundle.social API.
+# icon: terminal
+description: API reference documentation for the bundle.social API.
 ---
 
 <Note>
-  If you don't yet have bundle.social account you can sign up for a free account at [https://bundle.social](https://bundle.social).
+  If you don't yet have a bundle.social account you can sign up for a free account at [https://bundle.social](https://bundle.social).
+  Then create a new API key.
 </Note>
 
-## Welcome
-
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
+<Accordion
+  title="How to create a new API key"
 >
-  View the OpenAPI specification file
-</Card>
+Go to [API keys page](https://bundle.social/dashboard/team/api-keys).
+
+Click create a new key
+![Click create a new key](/images/api-reference/create-api-key/step1.png)
+
+Name your key to know what it is used for
+![Name your key to know what it is used for](/images/api-reference/create-api-key/step2.png)
+
+Copy your key and store it in a safe place
+![Copy your key and store it in a safe place](/images/api-reference/create-api-key/step3.png)
+</Accordion>
+
+
 
 ## Authentication
 
@@ -29,4 +36,11 @@ All API endpoints are authenticated using Bearer tokens and picked up from the s
     "ApiKeyAuth": [] 
   }
 ]
+```
+
+To authorize with the API, you need to provide an API key in the `x-api-key` header.
+```json
+{
+  "x-api-key": "YOUR_API_KEY",
+}
 ```

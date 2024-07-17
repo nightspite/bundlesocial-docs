@@ -3,8 +3,8 @@
   "openapi": ["/api-reference/openapi.json"],
   "name": "bundle.social",
   "logo": {
-    "dark": "/logo/wordmark.svg",
-    "light": "/logo/wordmark-dark.svg"
+    "dark": "/favicon.svg",
+    "light": "/favicon.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -36,16 +36,12 @@
       "url": "changelog"
     },
     {
-      "name": "Blog",
-      "url": "blog"
-    },
-    {
       "name": "Knowledge",
       "url": "knowledge"
     },
     {
-      "name": "Glossary",
-      "url": "glossary"
+      "name": "Blog",
+      "url": "blog"
     }
   ],
   "anchors": [
@@ -83,57 +79,99 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["welcome", "quickstart", "api-reference"]
+      "pages": ["welcome", "demo", "faq", "glossary"]
+    },
+    {
+      "group": "Knowledge Base",
+      "pages": [
+        "knowledge/index",
+        {
+          "group": "Social Accounts",
+          "pages": []
+        }
+      ]
+    },
+    {
+      "group": "Changelog",
+      "pages": ["changelog/index"]
+    },
+    {
+      "group": "Blog",
+      "pages": [
+        "blog/index",
+        {
+          "group": "Posts",
+          "pages": [
+            "blog/quick-guide-on-when-to-post",
+            "blog/why-solanda-is-next-big-thing",
+            "blog/ai-interview-are-here",
+            "blog/dopamine-detox",
+            "blog/ai-regulations",
+            "blog/all-my-homies-hate-blizzard",
+            "blog/books-can-change-you",
+            "blog/cloud-seeding-is-funny",
+            "blog/get-money-from-instagram",
+            "blog/get-your-money-from-twitter",
+            "blog/google-borrowed-chatgpt-data",
+            "blog/grow-your-tiktok-audience",
+            "blog/how-to-get-customer-insights",
+            "blog/how-to-get-more-facebook-followers",
+            "blog/is-data-science-dead",
+            "blog/linkedin-is-cringe",
+            "blog/marketing-in-the-future",
+            "blog/mental-health-and-social-media",
+            "blog/product-design-by-zalando",
+            "blog/why-we-think-in-the-shower",
+            "blog/real-cost-of-cloud",
+            "blog/seo-and-ads-managment",
+            "blog/social-media-trends-2024",
+            "blog/stop-using-loops-now",
+            "blog/you-are-an-addict",
+            "blog/tiktok-banned",
+            "blog/what-is-mojo",
+            "blog/what-is-quantum-computing",
+            "blog/working-burnout"
+          ]
+        }
+      ]
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": [
+        "api-reference/introduction",
+        "api-reference/openapi",
+        "api-reference/sdk",
+        "api-reference/webhooks",
+        "api-reference/rate-limits",
+        "api-reference/examples"
+      ]
     },
     {
       "group": "App",
       "pages": ["api-reference/client/app/get-health"]
     },
     {
+      "group": "Team",
+      "pages": ["api-reference/client/team/get-team"]
+    },
+    {
       "group": "Upload",
-      "pages": ["api-reference/client/upload/create-upload"]
+      "pages": [
+        "api-reference/client/upload/create-upload",
+        "api-reference/client/upload/delete-upload",
+        "api-reference/client/upload/delete-many-uploads",
+        "api-reference/client/upload/get-upload-list",
+        "api-reference/client/upload/get-upload"
+      ]
     },
     {
       "group": "Post",
-      "pages": ["api-reference/client/post/create-post"]
-    },
-    {
-      "group": "Blog",
       "pages": [
-        "blog/posts",
-        "blog/posts/quick-guide-on-when-to-post",
-        "blog/posts/why-solanda-is-next-big-thing",
-        "blog/posts/ai-interview-are-here",
-        "blog/posts/dopamine-detox",
-        "blog/posts/ai-regulations",
-        "blog/posts/all-my-homies-hate-blizzard",
-        "blog/posts/books-can-change-you",
-        "blog/posts/cloud-seeding-is-funny",
-        "blog/posts/get-money-from-instagram",
-        "blog/posts/get-your-money-from-twitter",
-        "blog/posts/google-borrowed-chatgpt-data",
-        "blog/posts/grow-your-tiktok-audience",
-        "blog/posts/how-to-get-customer-insights",
-        "blog/posts/how-to-get-more-facebook-followers",
-        "blog/posts/is-data-science-dead",
-        "blog/posts/linkedin-is-cringe",
-        "blog/posts/marketing-in-the-future",
-        "blog/posts/mental-health-and-social-media",
-        "blog/posts/product-design-by-zalando",
-        "blog/posts/why-we-think-in-the-shower",
-        "blog/posts/real-cost-of-cloud",
-        "blog/posts/seo-and-ads-managment",
-        "blog/posts/social-media-trends-2024",
-        "blog/posts/stop-using-loops-now",
-        "blog/posts/you-are-an-addict",
-        "blog/posts/tiktok-banned",
-        "blog/posts/what-is-mojo",
-        "blog/posts/what-is-quantum-computing",
-        "blog/posts/working-burnout"
+        "api-reference/client/post/create-post",
+        "api-reference/client/post/update-post",
+        "api-reference/client/post/delete-post",
+        "api-reference/client/post/get-post-list",
+        "api-reference/client/post/get-post"
       ]
     }
   ],
@@ -148,6 +186,6 @@
     "raiseIssue": true
   },
   "seo": {
-    "indexHiddenPages": true
+    "indexHiddenPages": false
   }
 }
